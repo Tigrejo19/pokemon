@@ -1,0 +1,25 @@
+# Archivos compilados y binarios
+*.exe
+*.o
+*.out
+*.a
+*.so
+*.dll
+
+# Carpetas generadas por compilación
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Configuraciones de IDEs y editores
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.cbp
+
+# Archivos temporales
+*.swp
+*~
