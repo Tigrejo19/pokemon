@@ -1,5 +1,5 @@
 # Pokémon Battle Simulator
-************************
+
 
 **Pokémon C++**
 
@@ -8,7 +8,7 @@ Este es un simulador de batallas Pokémon ¡EN DESARROLLO! en C++ que permite a 
 El proyecto incluye mecánicas básicas de combate como turnos basados en velocidad, cálculo de daño y estados de debilitamiento.
 
 ## Características principales
-...........................
+
 - Sistema de combate por turnos basado en velocidad.
 - Creación de Pokémon con estadísticas variables según nivel.
 - Gestión de equipos de hasta 6 Pokémon por entrenador.
@@ -16,12 +16,12 @@ El proyecto incluye mecánicas básicas de combate como turnos basados en veloci
 - Detección automática del Pokémon actual en batalla.
 
 ## Requisitos
-..........
+
 - Compilador de C++ (g++, clang, etc.)
 - Sistema operativo Windows, Linux o macOS
 
 ## Instalación
-...........
+
 1. Clona el repositorio:  
    `git clone https://github.com/Tigrejo19/pokemon.git`
 2. Navega al directorio del proyecto:  
@@ -32,22 +32,25 @@ El proyecto incluye mecánicas básicas de combate como turnos basados en veloci
    `./pokemon`
 
 ## Uso por el momento
-******************
+
 El programa simula automáticamente una batalla entre dos entrenadores predefinidos (Ash y Misty) con sus respectivos Pokémon.  
 Para personalizar los equipos, modifica el archivo main.cpp.
 
 ## Estructura del proyecto
 
-pokemon/
-├── Entrenador.h # Definición de la clase Entrenador
-├── Entrenador.cpp # Implementación de la clase Entrenador
-├── Pokemon.h # Definición de la clase Pokémon
-├── Pokemon.cpp # Implementación de la clase Pokémon
-├── main.cpp # Programa principal con la simulación de batalla
-└── README.md # Este archivo
+📦 pokemon  
+├── 📂 src/  
+│   ├── 📜 main.cpp          *// Programa principal*  
+│   ├── 📜 Pokemon.h         *// Definición clase Pokémon*  
+│   ├── 📜 Pokemon.cpp       *// Implementación clase Pokémon*  
+│   ├── 📜 Entrenador.h      *// Definición clase Entrenador*  
+│   └── 📜 Entrenador.cpp    *// Implementación clase Entrenador*  
+├── 📜 README.md             *// Documentación del proyecto*  
+└── 📜 .gitignore            *// Archivos excluidos de Git*  
+
 
 ## Contribución
-************
+
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
 1. Haz un fork del repositorio
